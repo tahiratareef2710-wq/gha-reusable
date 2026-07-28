@@ -8,4 +8,4 @@ on:
 
 jobs:
   call-greeting:
-    uses: ./.github/workflows/reusable.yml
+    uses: ./.github/workflows/resuable.yml
