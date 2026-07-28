@@ -1,6 +1,7 @@
 name: Call Reusable workflow
-on: 
-  workflow_call
-job:
+on:
+  workflow_call:
+
+jobs:
   call-greeting:
-    uses:./.github/workflows/resuable.yml
+    uses: ./.github/workflows/resuable.yml
