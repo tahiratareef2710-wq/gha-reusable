@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Greeting
-        run: echo "welcome to greeting" 
+        run: echo "welcome to greeting"
