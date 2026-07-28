@@ -5,4 +5,3 @@ on:
 jobs:
   call-greeting:
     uses: ./.github/workflows/resuable.yml
- 
