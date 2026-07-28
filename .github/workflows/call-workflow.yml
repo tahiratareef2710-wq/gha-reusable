@@ -1,6 +1,10 @@
 name: Call Reusable workflow
-on: 
-  workflow_call
+
+on:
+  push:
+    branches:
+      - main  # or 'master' depending on your default branch name
+  workflow_dispatch: # optional: lets you trigger it manually from the GitHub UI
 
 jobs:
   call-greeting:
